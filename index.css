@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+    color: #e691ec;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.countdown, .stay-connected, .social, .contact {
+    margin-bottom: 40px;
+}
+
+form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e691ec;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #e691ec;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #b760d0;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social a {
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #e691ec;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.social a:hover {
+    background-color: #e691ec;
+    color: #1c1c1c;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+    }
+}
