@@ -23,6 +23,6 @@ var x = setInterval(function() {
   // If the countdown is finished, display text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "EXPIRED";
+    document.getElementById("timer").innerHTML = "Countdown Ended!";
   }
 }, 1000);
